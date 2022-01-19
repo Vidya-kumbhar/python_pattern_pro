@@ -58,3 +58,17 @@ for y in range(5):
      for x in range (5-y):
          print("* ", end='')
      print()
+#--------------------------------------------------------
+    
+'''
+APQR
+ABQR
+ABCR
+ABCD
+'''
+LS = ['APQR', 'ABQR', 'ABCR', 'ABCD']
+
+for i in range(4):
+    print(LS[i], end="")
+    print()
+# ----------------------------------------------------------------
